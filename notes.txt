@@ -1,0 +1,197 @@
+spring -> framework -> java -> 
+
+	what is framework ? 
+		less code , higher productivity 	
+		
+	
+	jsp/servlet? 
+		technology 
+		request,response 
+		getParameter()
+		valiadtion 
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+spring -> java -> Framework -> 
+
+	framework ? 
+		is a collection of design pattern. 
+		less code , high productivity 
+		
+	technology
+		jsp-servlet 
+
+	design pattern?
+		common problem solution 
+	
+
+	jsp-servlet ->
+		form->submit->servlet->request->getParameter 
+					validation 
+					connection open 
+					query
+					connection close 
+	
+	1) memory 
+		jsp-servlet 
+			Signup.html {input} fn em pwd 
+			submit 
+			SignupServlet --> load class,create instance{thread},init,service,destroy 
+			user-read 
+			bean - set  UserBean user  = new UserBean();//10 byte 5000byte   
+			dao - add(bean) UserDao userDao  = new UserDao();//10 * 500 = 5000 byte 
+			db connection // 500 time dbconnection 5000 byte 
+			pstmt //500  5000 byte 
+			query 
+			-----------------
+			20,000 byte -> 20MB
+			amazon server -> 80GB HDD,2GB Ram  
+				16GB , 80GB HDD -> 
+				1600GB -> 
+			
+		singleton design pattern 
+			-> class - only 1  instance inside memory  
+				s,b,d,dc,p -> 50 byte -> 
+			-> 
+
+
+	framework -> adv +++ 
+		-> disAdv -- 
+
+	spring -> framework of framework 
+	
+	--->new*** 
+
+	spring - core
+	spring-web
+	spring-boot
+	spring-security
+
+	node-js-thread-single 
+		500 request -> 1 thread -> 500 request 
+		queue-fork-join ->
+		IO , process , thirdparty ,  
+  		
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+jsp - servlet -> technology 
+
+spring -- framework 
+
+design pattern 
+
+
+new -> 
+	spring -> IoC -> inversion of control
+
+
+NPM   { package.json , package-lock.json } 
+	npm install nodemon -g 
+
+MAVEN --->  build tools ---> { pom.xml  } 
+
+
+adv java -> servlet-api.jar -> tomcat 
+	 mysql-connector.jar -> net 
+	jstl.jar -> net 
+
+	c , c , v , 
+
+	paypal.jar ->
+		jstl.jar -->  	
+		std.jar 
+
+	paypal.jar  version  2.3 -> 2.2 
+		jstl.jar 2.2-->    2.1  	 
+		std.jar 2.1 -->   2.0 
+
+
+  
+maven -> 
+	maven ? 	maven website -> repo -> jar   mvnrepository.com -> jar / lib / dep 
+	pom.xml->
+
+
+create maven project 
+ 	
+---------------------------------------------------------------------------------------
+
+maven -> jar -> dep ? -> mvnrepository.com -> remote repo 
+
+
+A -> servlet-api.jar -> 
+
+B -> servlet-api.jar -> 
+
+
+---------------------------------------------
+spring core -> singleton , new , 
+
+
+core java -> maven -> 
+
+------------------------------
+
+maven project -> spring ->  
+	pom.xml ->
+		1) core	{bean context el core}
+		2) database 
+		3) web
+		4) test 
+		5) AOP 
+		6) instrument 
+		7) Aspect 
+-------------------------------------
+Spring -> object -> DI -> 
+
+SpringContainer -> IoC container 
+					  1) BeanFactory(I) 
+					  2) ApplicationContext(I)
+Inversion Control -> 
+
+
+spring bean ? 
+	--> class -> life cycle -> IoC container 
+
+UserController -> create , release 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	 
+		

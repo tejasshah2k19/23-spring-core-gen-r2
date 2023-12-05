@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean class="com.controller.UserController" id="uc"></bean>
+
+	<bean class="com.bean.UserBean" id="uBean">
+		<property name="email" value="tejas@gmail.com"></property>
+	</bean>
+
+	<bean class="com.bean.AddressBean" id="addrBean"></bean>
+	<bean class="com.bean.StudentBean" id="studBean">
+		<constructor-arg ref="addrBean"></constructor-arg>
+	</bean>
+
+</beans>
