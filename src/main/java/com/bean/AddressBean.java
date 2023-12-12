@@ -8,6 +8,10 @@ public class AddressBean {
 	Integer pincode; 
 	String city;
 	String landmark;
+	
+	public void init() {
+		city = "ahmedabad";
+	}
 	public String getStreetLine() {
 		return streetLine;
 	}

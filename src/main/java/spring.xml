@@ -11,9 +11,13 @@
 		<property name="email" value="tejas@gmail.com"></property>
 	</bean>
 
-	<bean class="com.bean.AddressBean" id="addrBean"></bean>
+	<bean class="com.bean.AddressBean" id="addrBean" init-method="init" destroy-method="destroy"  ></bean>
 	<bean class="com.bean.StudentBean" id="studBean">
 		<constructor-arg ref="addrBean"></constructor-arg>
 	</bean>
-
+	
+	<bean class="com.bean.PolicyBean" id="pBean"></bean>
+	<bean class="com.bean.EmployeeBean" id="empl">
+		<property name="policyBean" ref="pBean"></property>
+	</bean>
 </beans>
